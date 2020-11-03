@@ -5,6 +5,6 @@ apt-get install curl \
 openjdk-11-jdk \
 git \
 maven -y && \
-sudo adduser --disabled-password --gecos "" Jenkins && \
+adduser --disabled-password --gecos "" Jenkins && \
 curl -fsSL https://get.docker.com -o get-docker.sh && \
 sh get-docker.sh
